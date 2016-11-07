@@ -1,0 +1,75 @@
+﻿Build started 3/20/2015 10:54:44 AM.
+     1>Project "E:\CS 3100 Homework\Assignment7\Assignment7\Assignment7\Assignment7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "E:\CS 3100 Homework\Assignment7\Assignment7.cpp"
+         Assignment7.cpp
+     1>e:\cs 3100 homework\assignment7\task.h(41): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(128): warning C4101: 'burstOrigSize' : unreferenced local variable
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(122): warning C4101: 'currentBurst' : unreferenced local variable
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(222): warning C4101: 'burstOrigSize' : unreferenced local variable
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(216): warning C4101: 'currentBurst' : unreferenced local variable
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(323): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(321): warning C4101: 'burstOrigSize' : unreferenced local variable
+     1>e:\cs 3100 homework\assignment7\assignment7.cpp(315): warning C4101: 'currentBurst' : unreferenced local variable
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\numeric(20): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\numeric(31) : see reference to function template instantiation '_Ty std::_Accumulate<const double*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+                 with
+                 [
+                     _Ty=int
+         ,            _Fn2=std::plus<void>
+         ,            _InIt=const double *
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\numeric(39) : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+                 with
+                 [
+                     _Ty=int
+         ,            _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+         ,            _Fn2=std::plus<void>
+                 ]
+                 e:\cs 3100 homework\assignment7\assignment7.cpp(37) : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt,_InIt,_Ty)' being compiled
+                 with
+                 [
+                     _Ty=int
+         ,            _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(521): error C2664: 'bool Compare::operator ()(Event *,Event *)' : cannot convert argument 1 from 'Task *' to 'Event *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(2288) : see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr,Task*&,Task*&>(_Pr,_Ty1,_Ty2,std::_Dbfile_t,std::_Dbline_t)' being compiled
+                 with
+                 [
+                     _Pr=Compare
+         ,            _Ty1=Task *&
+         ,            _Ty2=Task *&
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(2348) : see reference to function template instantiation 'void std::_Debug_heap<Task**,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+                 with
+                 [
+                     _Pr=Compare
+         ,            _RanIt=Task **
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\queue(392) : see reference to function template instantiation 'void std::push_heap<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Task *>>>,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+                 with
+                 [
+                     _Pr=Compare
+         ,            _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Task *>>>
+                 ]
+                 e:\cs 3100 homework\assignment7\assignment7.cpp(179) : see reference to function template instantiation 'void std::priority_queue<Task *,std::vector<Task *,std::allocator<_Ty>>,Compare>::emplace<Task*&>(Task *&)' being compiled
+                 with
+                 [
+                     _Ty=Task *
+                 ]
+                 e:\cs 3100 homework\assignment7\assignment7.cpp(179) : see reference to function template instantiation 'void std::priority_queue<Task *,std::vector<Task *,std::allocator<_Ty>>,Compare>::emplace<Task*&>(Task *&)' being compiled
+                 with
+                 [
+                     _Ty=Task *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(523): error C2664: 'bool Compare::operator ()(Event *,Event *)' : cannot convert argument 1 from 'Task *' to 'Event *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "E:\CS 3100 Homework\Assignment7\Assignment7\Assignment7\Assignment7.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.54
